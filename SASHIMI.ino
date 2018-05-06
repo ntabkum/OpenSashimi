@@ -58,7 +58,7 @@ void setup() {
      pinMode(gpi14_d5, INPUT_PULLUP); // from contact sensor 1
      pinMode(gpi12_d6, INPUT_PULLUP); // from contact sensor 2
      
-     Blynk.begin(auth, ssid, pass, IPAddress(172,27,0,100), 8080); // 68,111,139,135 | 10,0,1,100 | 172,27,0,100
+     Blynk.begin(auth, ssid, pass, IPAddress(your,blynk,local,server), 8080); //
      
      lcd1.clear();
      dht.begin();
