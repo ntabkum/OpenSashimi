@@ -33,10 +33,9 @@ WidgetLCD lcd2(V15);
 
 WidgetRTC rtc;  // real time clock
 
-char auth[] = "5bc4da55826f4dd2b745a6ace2ef29d3"; // home VM n.tabkum@gmail.com
-
-char ssid[] = "IOTDEVICE2";
-char pass[] = "1e2d3c4b5a";
+char auth[] = "your blynk auth code";
+char ssid[] = "your SSID";
+char pass[] = "your passphrase";
 
 WidgetLED led1(V1); // ack 1 LED  
 WidgetLED led2(V2); // open LED
